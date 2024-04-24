@@ -10,3 +10,7 @@ public/tiktok_live_studio-v0.55.2-win32-x64.exe filter=lfs diff=lfs merge=lfs -t
 .github/images/step_emailjs.png filter=lfs diff=lfs merge=lfs -text
 .github/images/* filter=lfs diff=lfs merge=lfs -text
 public/* filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
