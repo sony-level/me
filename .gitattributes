@@ -1,3 +1,12 @@
 public/VirtualBox-7.0.16-162802-Win.exe filter=lfs diff=lfs merge=lfs -text
 public/burpsuite_community_windows-x64_v2024_2_1_5.exe filter=lfs diff=lfs merge=lfs -text
 public/tiktok_live_studio-v0.55.2-win32-x64.exe filter=lfs diff=lfs merge=lfs -text
+.github/images/img1.png filter=lfs diff=lfs merge=lfs -text
+.github/images/img2.png filter=lfs diff=lfs merge=lfs -text
+.github/images/img3.png filter=lfs diff=lfs merge=lfs -text
+.github/images/img4.png filter=lfs diff=lfs merge=lfs -text
+.github/images/img_main.png filter=lfs diff=lfs merge=lfs -text
+.github/images/stats.svg filter=lfs diff=lfs merge=lfs -text
+.github/images/step_emailjs.png filter=lfs diff=lfs merge=lfs -text
+.github/images/* filter=lfs diff=lfs merge=lfs -text
+public/* filter=lfs diff=lfs merge=lfs -text
