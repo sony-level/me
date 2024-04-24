@@ -27,7 +27,7 @@ const About = () => {
 
       <p className="mb-3">
         🎓 Je suis un étudiant passionné par la <b className="font-medium text-blue-500">🔒 Cybersécurité</b> et 
-        le <b className="font-medium text-blue-500">💻 développement web</b> à mon temps libre. J'ai décidé de suivre ma 
+        le <b className="font-medium text-blue-500">💻 développement web</b> à mon temps libre. J'ai décidé de suivre ma  
         passion à l'<b className="font-medium text-blue-500">🏫 Isen Yncrea Mediterranée de Toulon</b> où 
         je suis inscrit en <b className="font-medium text-blue-500">🎓 Master 1 Cybersécurité</b>. Cette formation 
         m'initie aux fondamentaux de la sécurité des systèmes d'informations et me permet de les mettre en pratique au travers 
