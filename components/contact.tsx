@@ -124,11 +124,11 @@ const Contact = () => {
     >
       <SectionHeading>My contact</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at my{" "}
+      Veuillez me contacter directement à mon{" "}
         <Link className="underline" href={`mailto:${EXTRA_LINKS.email}`}>
           e-mail
         </Link>{" "}
-        or through this form.
+        ou via ce formulaire.
       </p>
 
       <form
