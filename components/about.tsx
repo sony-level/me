@@ -13,6 +13,7 @@ const About = () => {
   const { ref } = useSectionInView("About");
 
   // Return the About section, which uses framer-motion for animations.
+  // Return the About section, which uses framer-motion for animations.
   return (
     <motion.section
       ref={ref}
@@ -30,7 +31,7 @@ const About = () => {
         le <b className="font-medium text-blue-500">💻 développement web</b> à mon temps libre. J'ai décidé de suivre ma  
         passion à l'<b className="font-medium text-blue-500">🏫 Isen Yncrea Mediterranée de Toulon</b> où 
         je suis inscrit en <b className="font-medium text-blue-500">🎓 Master 1 Cybersécurité</b>. Cette formation 
-        m'initie aux fondamentaux de la sécurité des systèmes d'informations et me permet de les mettre en pratique au travers 
+        m'initie aux fondamentaux de la sécurité des systèmes d'information et me permet de les mettre en pratique au travers 
         de projets à réaliser en <b className="font-medium text-blue-500">👥 équipe</b> ou <b className="font-medium text-blue-500">👤 individuellement</b>.
       </p>
 
@@ -50,24 +51,18 @@ const About = () => {
      
 
       <p className="mb-3">
-        💻  Parfois difficile à appréhender en fonction des situations, j'
-        <u className="font-medium text-blue-500">adore</u> le sentiment de finalement trouver une solution à un problème. {" "}.<br />
+        💻  Parfois difficile à appréhender en fonction des situations, {" "}
+        <b className="font-medium text-blue-500">j'adore</b> le sentiment de finalement trouver une solution à un problème. {" "}<br />
+
+        <br ></br>
+       <SectionHeading>Mon stack de base comprend :</SectionHeading> 
+
         <ul className="list-disc ml-5">
-    <li><b className="font-medium text-blue-500">Python :</b> pour l'automatisation, l'analyse de données, et le développement d'outils de sécurité.</li>
+    <li><b className="font-medium text-blue-500">🐍 Python :</b> pour l'automatisation, l'analyse de données, et le développement d'outils de sécurité.</li>
     <li><b className="font-medium text-blue-500">Bash :</b> pour la gestion des scripts et des tâches d'administration système.</li>
-    <li><b className="font-medium text-blue-500">Linux :</b> comme Kali Linux pour les tests de pénétration et Ubuntu pour le développement, et <b className="font-medium text-blue-500">Windows :</b> pour comprendre les environnements couramment utilisés et leurs vulnérabilités.</li>
+    <li><b className="font-medium text-blue-500"> 🐧 Linux :</b> comme Kali Linux pour les tests de pénétration et Ubuntu pour le développement, et <b className="font-medium text-blue-500">Windows :</b> pour comprendre les environnements couramment utilisés et leurs vulnérabilités.</li>
   </ul>
 </p>{" "}
-
-<p className="mb-3">
-  <strong>En ce qui concerne les outils et <b className="font-medium text-red-500">frameworks</b>:</strong>
-  <ul className="list-disc ml-5">
-    <li><b className="font-medium text-blue-500">Metasploit :</b> pour les tests de pénétration et l'exploitation des vulnérabilités.</li>
-    <li><b className="font-medium text-blue-500">Wireshark :</b> pour l'analyse du trafic réseau et la détection d'intrusions.</li>
-    <li><b className="font-medium text-blue-500">Nmap :</b> pour la découverte d'appareils sur un réseau et la cartographie des ports.</li>
-    <li><b className="font-medium text-blue-500">Snort :</b> pour la détection d'intrusions réseau.</li>
-  </ul>
-</p>
 
 <p className="mb-3">
   <strong>En ce qui concerne les <b className="font-medium text-green-500">Concepts de sécurité</b> : </strong>
@@ -81,16 +76,17 @@ const About = () => {
 <p className="mb-3">
   Je m'efforce également de rester à jour avec les dernières tendances en matière de sécurité en faisant une <b className="font-medium text-green-500">veille technologique</b> régulière sur les nouvelles vulnérabilités, les attaques récentes, et les développements dans le domaine de la cybersécurité.
 </p>
-      
+<br ></br>
       <p className="mb-3">
   <SectionHeading>Ce que je recherche</SectionHeading>
   Je suis familiarisé avec les concepts de la cybersécurité. Je cherche toujours à apprendre de nouvelles technologies. 
-  Je suis actuellement à la recherche d'un <b className="font-medium text-blue-500">stage en cybersécurité</b> d'une durée de <b className="font-medium text-blue-500">4 mois</b> à partir de <b className="font-medium text-blue-500">juin 2024</b>.
+  Je suis actuellement à la recherche d'un <b className="font-medium text-blue-500">stage en cybersécurité</b> d'une durée de <b className="font-medium text-blue-500">4 mois</b> à partir de <b className="font-medium text-blue-500">juin 2024</b> {" "}
+  pouvant donner suite avec une possibilité de poursuivre un <b className="font-medium text-blue-500">contrat de professionnalisation</b> dès <b className="font-medium text-blue-500">Août 2024 😊</b> .
 </p>
-
+<br ></br>
        <p className="mb-3">   
        <SectionHeading>Hobbies</SectionHeading>
-            <i className="italic">👨‍💻 A mes heures libres</i>, j'aime regarder des films 🎥 ,  participé aux CTF (Capture The Flag) 🏁 afin de m'améliorer.  J'aime aussi{" "}
+            <i className="italic">👨‍💻 A mes heures libres</i>, j'aime regarder des films 🎥 & documentaires 🎬,  participé aux CTF (Capture The Flag) 🏁 afin de m'améliorer.  J'aime aussi{" "}
         <b className="font-medium">📚 apprendre de nouvelles choses</b>. Actuellement,
         je concois la redaction d'un <b className="font-medium">blog</b>.
         J'adore aussi à voyager ✈️.

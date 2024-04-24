@@ -106,7 +106,7 @@ export const PROJECTS_DATA = [
 // Data for skills
 // Data for skills
 export const SKILLS_DATA = {
-  "Cybersécurité": [
+  " 🔒 Cybersécurité": [
     "Cryptographie",
     "Sécurité Réseau",
     "Sécurité des Applications",
@@ -115,7 +115,7 @@ export const SKILLS_DATA = {
     "Forensique",
    
   ],
-  "Déploiement": [
+  "🚀 Déploiement": [
     "Docker",
     "Kubernetes",
     "CI/CD",
@@ -125,7 +125,7 @@ export const SKILLS_DATA = {
     "Grafana",
    
   ],
-  "Langages de programmation": [
+  " 💻Langages de programmation": [
     "Python",
     "Java",
     "C",
