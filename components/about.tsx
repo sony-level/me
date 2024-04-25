@@ -89,7 +89,7 @@ const About = () => {
             <i className="italic">👨‍💻 A mes heures libres</i>, j'aime regarder des films 🎥 & documentaires 🎬,  participé aux CTF (Capture The Flag) 🏁 afin de m'améliorer.  J'aime aussi{" "}
         <b className="font-medium">📚 apprendre de nouvelles choses</b>. Actuellement,
         je concois la redaction d'un <b className="font-medium">blog</b>.
-        J'adore aussi à voyager ✈️.
+        J'adore aussi voyager ✈️ découvrir de nouveaux horizons .
     </p>
     </motion.section>
   );
