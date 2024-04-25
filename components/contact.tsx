@@ -87,13 +87,13 @@ const Contact = () => {
         () => {
           // Success: Display a success message using toast.
           toast.success(
-            "Thank You. I will get back to you as soon as possible."
+            "Merci. Je vous recontacterai dès que possible."
           );
         },
         (error) => {
           // Error handling: Display an error message and log the error.
           console.log(error);
-          toast.error("Sorry. Something went wrong.");
+          toast.error("Désolé. Quelque chose a mal tourné.");
         }
       )
       .finally(() => {
@@ -124,7 +124,7 @@ const Contact = () => {
     >
       <SectionHeading>My contact</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-      Veuillez me contacter directement à mon{" "}
+      Vous pouvez me contacter directement à mon{" "}
         <Link className="underline" href={`mailto:${EXTRA_LINKS.email}`}>
           e-mail
         </Link>{" "}
@@ -190,7 +190,7 @@ const Contact = () => {
             <span className="h-5 w-5 animate-spin rounded-full border-b-2 border-white" />
           ) : (
             <>
-              Submit{" "}
+             Envoyer{" "}
               <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />
             </>
           )}
