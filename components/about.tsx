@@ -81,7 +81,7 @@ const About = () => {
   <SectionHeading>Ce que je recherche</SectionHeading>
   Je suis familiarisé avec les concepts de la cybersécurité. Je cherche toujours à apprendre de nouvelles technologies. 
   Je suis actuellement à la recherche d'un <b className="font-medium text-blue-500">stage en cybersécurité</b> d'une durée de <b className="font-medium text-blue-500">4 mois</b> à partir de <b className="font-medium text-blue-500">juin 2024</b> {" "}
-  pouvant donner suite à une possibilité de poursuivre un <b className="font-medium text-blue-500">contrat de professionnalisation</b> dès <b className="font-medium text-blue-500">Août 2024 😊</b> .
+  pouvant donner suite à une possibilité de poursuivre un <b className="font-medium text-blue-500">contrat de professionnalisation</b> dès <b className="font-medium text-blue-500">septembre 2024 😊</b> .
 </p>
 <br ></br>
        <p className="mb-3">   
