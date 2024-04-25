@@ -1,47 +1,47 @@
 <a name="readme-top"></a>
 
-# A Modern UI/UX Portfolio using Next.JS
+# Un portfolio moderne UI/UX utilisant Next.JS
 
-![A Modern UI/UX Portfolio using Next.JS](/.github/images/img_main.png "A Modern UI/UX Portfolio using Next.JS")
+![Un portfolio moderne UI/UX utilisant Next.JS](/.github/images/img_main.png "Un portfolio moderne UI/UX utilisant Next.JS")
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/sony-level "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/sony-level/me)](https://github.com/sony-level/me/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sony-level/me/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/sony-level/me)](https://github.com/sony-level/me/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/sony-level/me/main)](https://github.com/sony-level/me/commits "Github commits")
-[![GitHub issues](https://img.shields.io/github/issues/sony-level/me)](https://github.com/sony-level/me/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/sony-level/me)](https://github.com/sony-level/me/pulls "GitHub pull requests")
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sanidhy.vercel.app/ "Vercel status")
+[![Demandez-moi n'importe quoi!](https://img.shields.io/badge/Demandez%20moi-n'importe%20quoi-1abc9c.svg)](https://github.com/sony-level "Demandez-moi n'importe quoi!")
+[![Licence GitHub](https://img.shields.io/github/license/sony-level/me)](https://github.com/sony-level/me/blob/main/LICENSE "Licence GitHub")
+[![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://github.com/sony-level/me/commits/main "Maintenance")
+[![Branches GitHub](https://badgen.net/github/branches/sony-level/me)](https://github.com/sony-level/me/branches "Branches GitHub")
+[![Commits Github](https://badgen.net/github/commits/sony-level/me/main)](https://github.com/sony-level/me/commits "Commits Github")
+[![Problèmes GitHub](https://img.shields.io/github/issues/sony-level/me)](https://github.com/sony-level/me/issues "Problèmes GitHub")
+[![Demandes de tirage GitHub](https://img.shields.io/github/issues-pr/sony-level/me)](https://github.com/sony-level/me/pulls "Demandes de tirage GitHub")
+[![Statut Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sanidhy.vercel.app/ "Statut Vercel")
 
-<!-- Table of Contents -->
+<!-- Table des matières -->
 <details>
 
 <summary>
 
-# :notebook_with_decorative_cover: Table of Contents
+# :notebook_with_decorative_cover: Table des matières
 
 </summary>
 
-- [Folder Structure](#bangbang-folder-structure)
-- [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
-- [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
-- [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
+- [Structure des dossiers](#bangbang-structure-des-dossiers)
+- [Pour commencer](#toolbox-pour-commencer)
+- [Captures d'écran](#camera-captures-d'écran)
+- [Stack technologique](#gear-stack-technologique)
+- [Statistiques](#wrench-statistiques)
+- [Contribuer](#raised_hands-contribuer)
+- [Remerciements](#gem-remerciements)
+- [Achetez-moi un café](#coffee-achetez-moi-un-café)
+- [Suivez-moi](#rocket-suivez-moi)
+- [En savoir plus](#books-en-savoir-plus)
+- [Déployer sur Vercel](#page_with_curl-déployer-sur-vercel)
+- [Donnez une étoile](#star-donnez-une-étoile)
+- [Historique des étoiles](#star2-historique-des-étoiles)
+- [Donnez une étoile](#star-donnez-une-étoile)
 
 </details>
 
-## :bangbang: Folder Structure
+## :bangbang: Structure des dossiers
 
-Here is the folder structure of My Portfolio.
+Voici la structure des dossiers de Mon Portfolio.
 
 ```bash
 me/
@@ -90,12 +90,12 @@ me/
 
 <br />
 
-## :toolbox: Getting Started
+## :toolbox: Pour commencer
 
-1. Make sure **Git** and **NodeJS** is installed.
-2. Clone this repository to your local computer.
-3. Create `.env.local` file in root folder.
-4. Contents of `.env.local`:
+1. Assurez-vous que **Git** et **NodeJS** sont installés.
+2. Clonez ce dépôt sur votre ordinateur local.
+3. Créez un fichier `.env.local` dans le dossier racine.
+4. Contenu de `.env.local`:
 
 ```
 # .env.local
@@ -113,44 +113,44 @@ NEXT_PUBLIC_GOOGLE_VERIFICATION_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ```
 
-5. Create new account in [EmailJS](https://www.emailjs.com/ "EmailJS").
-6. From dashboard, choose Email Services > Add New Service and connect your mail to emailjs.
-7. Once new service is configured, copy your **Service ID** to `NEXT_PUBLIC_EMAILJS_SERVICE_ID`
-8. Now, go to Email Templates > Create New Template to create your mail template. Once it is done, you can copy **Template ID** to `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`
-9. To get your **Public Key**, click on your username on navbar and go to account settings > Copy Public Key to `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`
-10. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+5. Créez un nouveau compte sur [EmailJS](https://www.emailjs.com/ "EmailJS").
+6. Depuis le tableau de bord, choisissez Services de messagerie > Ajouter un nouveau service et connectez votre messagerie à emailjs.
+7. Une fois le nouveau service configuré, copiez votre **ID de service** dans `NEXT_PUBLIC_EMAILJS_SERVICE_ID`.
+8. Maintenant, allez dans Modèles de messagerie > Créer un nouveau modèle pour créer votre modèle de messagerie. Une fois terminé, vous pouvez copier **l'ID du modèle** dans `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`.
+9. Pour obtenir votre **clé publique**, cliquez sur votre nom d'utilisateur dans la barre de navigation, puis accédez aux paramètres du compte > Copiez la clé publique dans `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`.
+10. Ouvrez le terminal dans le répertoire racine. Exécutez `npm install --legacy-peer-deps` ou `yarn install --legacy-peer-deps`.
 
 ![Copy Public Key](/.github/images/step_emailjs.png "Copy Public Key")
 
-11. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn dev`.
+11. Maintenant, l'application est entièrement configurée :+1: et vous pouvez commencer à l'utiliser en utilisant `npm run dev` ou `yarn dev`.
 
-**NOTE:** Make sure you don't share these keys publicaly.
+**REMARQUE:** Assurez-vous de ne pas partager ces clés publiquement.
 
-## :camera: Screenshots:
+## :camera: Captures d'écran:
 
-![Modern UI/UX using Tailwind CSS](/.github/images/img1.png "Modern UI/UX using Tailwind CSS")
+![Un portfolio moderne UI/UX utilisant Tailwind CSS](/.github/images/img1.png "Un portfolio moderne UI/UX utilisant Tailwind CSS")
 
-![Showcase Projects](/.github/images/img2.png "Showcase Projects")
+![Présentation des projets](/.github/images/img2.png "Présentation des projets")
 
-![Tell about your Experiences](/.github/images/img3.png "Tell about your Experiences")
+![Parlez de vos expériences](/.github/images/img3.png "Parlez de vos expériences")
 
-![Working Contact Form](/.github/images/img4.png "Working Contact Form")
+![Formulaire de contact fonctionnel](/.github/images/img4.png "Formulaire de contact fonctionnel")
 
-## :gear: Tech Stack
+## :gear: Stack technologique
 
 [![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.app/ "Vercel")
 
-## :wrench: Stats
+## :wrench: Statistiques
 
-[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed-insights-svg.glitch.me/?url=https://www.sanidhy.me/ "Stats for this App")
+[![Statistiques pour cette application](/.github/images/stats.svg "Statistiques pour cette application")](https://pagespeed-insights-svg.glitch.me/?url=https://www.level-sony.fr/ "Statistiques pour cette application")
 
-## :raised_hands: Contribute
+## :raised_hands: Contribuer
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+Vous pourriez rencontrer quelques bugs lors de l'utilisation de cette application. Vous êtes plus que bienvenu pour contribuer. Il suffit de soumettre des modifications via une demande de pull et je les examinerai avant de les fusionner. Assurez-vous de suivre les directives de la communauté.
 
-## :gem: Acknowledgements
+## :gem: Remerciements
 
-Useful resources and libraries that are used in My Portfolio
+Ressources et bibliothèques utiles utilisées dans Mon Portfolio
 
 - [Email JS](https://www.emailjs.com/ "Email JS")
 - [Framer Motion](https://www.framer.com/motion/ "Framer Motion")
@@ -165,40 +165,40 @@ Useful resources and libraries that are used in My Portfolio
 
 [<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/level "Buy me a Coffee")
 
-## :rocket: Follow Me
+## :rocket: Suivez-moi
 
-[![GitHub followers](https://img.shields.io/github/followers/sony-level?style=social&label=Follow&maxAge=2592000)](https://github.com/sony-level "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsony-level%2Fmedical-chat-app "Tweet")
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")
+[![Abonnés GitHub](https://img.shields.io/github/followers/sony-level?style=social&label=Suivre&maxAge=2592000)](https://github.com/sony-level "Suivez-moi")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsony-level%2Fmedical-chat-app "Tweeter")
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Abonnez-vous à ma chaîne")
 
-## :books: Learn More
+## :books: En savoir plus
 
-To learn more about Next.js, take a look at the following resources:
+Pour en savoir plus sur Next.js, consultez les ressources suivantes :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentation Next.js](https://nextjs.org/docs) - apprenez les fonctionnalités et l'API de Next.js.
+- [Apprendre Next.js](https://nextjs.org/learn) - un tutoriel interactif sur Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Vous pouvez consulter [le dépôt GitHub de Next.js](https://github.com/vercel/next.js/) - vos commentaires et contributions sont les bienvenus !
 
-## :page_with_curl: Deploy on Vercel
+## :page_with_curl: Déployer sur Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+La manière la plus simple de déployer votre application Next.js est d'utiliser la [plateforme Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) des créateurs de Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Consultez notre [documentation de déploiement Next.js](https://nextjs.org/docs/deployment) pour plus de détails.
 
-## :star: Give A Star
+## :star: Donnez une étoile
 
-You can also give this repository a star to show more people and they can use this repository.
+Vous pouvez également donner une étoile à ce dépôt pour le montrer à plus de personnes et qu'elles puissent l'utiliser.
 
-## :star2: Star History
+## :star2: Historique des étoiles
 
 <a href="https://star-history.com/#sony-level/me&Timeline">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sony-level/me&type=Timeline&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sony-level/me&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sony-level/me&type=Timeline" />
+    <img alt="Graphique de l'historique des étoiles" src="https://api.star-history.com/svg?repos=sony-level/me&type=Timeline" />
   </picture>
 </a>
 
 <br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">retour en haut</a>)</p>
