@@ -4,7 +4,7 @@ import { FaBlog, FaReact, FaRegArrowAltCircleLeft, FaYarn } from "react-icons/fa
 import { LuGraduationCap } from "react-icons/lu";
 
 import carhubImg from "@/public/carhub.png";
-import realtorImg from "@/public/realtor.png";
+import realtorImg from "@/public/realtor.jpg";
 import ecommerceImg from "@/public/image.png";
 
 // Navigation links
@@ -39,11 +39,13 @@ export const LINKS = [
 export const EXTRA_LINKS = {
   linkedin: "https://fr.linkedin.com/in/level-sony",
   github: "https://github.com/sony-level",
+  gitlab: "https://gitlab.com/sonydilane",
   resume: "/resume.pdf",
   source_code: "https://github.com/sony-level/me",
   email: "sony-dilane-level.mbango@isen.yncrea.fr",
   blog: "https://blogcyber.level.ovh/",
   rootMe:"https://www.root-me.org/level-818750?inc=score&lang=fr"
+  
 } as const;
 
 // Data for work experience
@@ -85,6 +87,14 @@ export const EXPERIENCES_DATA = [
 
 // Data for projects
 export const PROJECTS_DATA = [
+  {
+    title: "Challenge learning",
+    description:
+      "Pojet visant à fournir une ressource complète pour comprendre et mitiger les principales vulnérabilités de sécurité Web répertoriées dans le top 10 de l'OWASP ",
+    tags: ["Docker", "CSS", "PHP", "SQL", "Docker compose"],
+    imageUrl: realtorImg,
+    projectUrl: "https://github.com/sony-level/OWASP-10",
+  },
   {
     title: "Dockdock-Go",
     description:
