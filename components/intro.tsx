@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { FaBlog, FaGithubSquare, FaSquareRootAlt } from "react-icons/fa";
+import { FaBlog, FaGithubSquare, FaGitlab ,FaSquareRootAlt } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 
 import { useSectionInView } from "@/lib/hooks";
@@ -124,6 +124,7 @@ const Intro = () => {
           >
             <FaGithubSquare />
           </Link>
+
           <Link
             href={EXTRA_LINKS.blog}
             target="_blank"
