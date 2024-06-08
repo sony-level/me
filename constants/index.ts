@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import carhubImg from "@/public/carhub.png";
 import realtorImg from "@/public/realtor.jpg";
 import ecommerceImg from "@/public/image.png";
+import quickMailImg from "@/public/quickMail.png";
 
 // Navigation links
 export const LINKS = [
@@ -28,6 +29,10 @@ export const LINKS = [
   {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Mon Blog",
+    hash: "https://blogcyber.level.ovh/",
   },
   {
     name: "Contact",
@@ -88,6 +93,15 @@ export const EXPERIENCES_DATA = [
 // Data for projects
 export const PROJECTS_DATA = [
   {
+    title: "Quick Mail",
+    url: "https://quickmail.level-sony.fr/",
+    description:
+      "Quick Mail est un service de messagerie temporaire qui permet de créer une adresse email aléatoire et de recevoir des messages. Parfait pour les inscriptions nécessitant une vérification par email sans utiliser votre adresse personnelle.",
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    imageUrl: quickMailImg,
+    projectUrl: "https://github.com/sony-level/QuickMail",
+  },
+  {
     title: "Challenge learning",
     description:
       "Pojet visant à fournir une ressource complète pour comprendre et mitiger les principales vulnérabilités de sécurité Web répertoriées dans le top 10 de l'OWASP ",
@@ -103,6 +117,7 @@ export const PROJECTS_DATA = [
     imageUrl: ecommerceImg,
     projectUrl: "https://github.com/Master1-Project",
   },
+ 
   {
     title: "Vérification de chaînes de certificats",
     description:  " Cette fonctionnalité permet de vérifier la validité des chaînes de certificats pour renforcer la sécurité de l'infrastructure. ",
@@ -147,4 +162,4 @@ export const SKILLS_DATA = {
 } as const;
 
 // Owner name
-export const OWNER_NAME = "Level ";
+export const OWNER_NAME = "Level";

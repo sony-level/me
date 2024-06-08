@@ -10,6 +10,7 @@ import SectionHeading from "./section-heading";
 import { PROJECTS_DATA } from "@/constants";
 import { useSectionInView } from "@/lib/hooks";
 
+
 import Link from "next/link";
 
 // Define the ProjectProps type based on the PROJECTS_DATA structure.
