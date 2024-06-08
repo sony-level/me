@@ -3,6 +3,7 @@
 
 // Import necessary dependencies and components.
 import { motion } from "framer-motion";
+import React from 'react';
 
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";

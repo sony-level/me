@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import React from 'react';
 
 import { SKILLS_DATA } from "@/constants";
 import SectionHeading from "./section-heading";

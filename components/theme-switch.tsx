@@ -2,6 +2,7 @@
 
 import { useThemeContext } from "@/context/theme-context";
 import { BsMoon, BsSun } from "react-icons/bs";
+import React from 'react';
 
 const ThemeSwitch = () => {
   // Use the theme context to access the current theme and the toggleTheme function

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import React from 'react';
 
 import { EXTRA_LINKS, OWNER_NAME } from "@/constants";
 

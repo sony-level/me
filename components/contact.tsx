@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
+import React from 'react';
 
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";

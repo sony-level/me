@@ -2,6 +2,7 @@
 "use client"; // This comment indicates that this code should run on the client side in Next.js.
 
 import { motion } from "framer-motion";
+import React from 'react';
 
 // Define the SectionDivider component to display a vertical divider between sections.
 const SectionDivider = () => {

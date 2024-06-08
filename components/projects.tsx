@@ -9,6 +9,7 @@ import { useScroll } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { PROJECTS_DATA } from "@/constants";
 import { useSectionInView } from "@/lib/hooks";
+import React from 'react';
 
 
 import Link from "next/link";
