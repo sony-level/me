@@ -94,12 +94,11 @@ export const EXPERIENCES_DATA = [
 export const PROJECTS_DATA = [
   {
     title: "Quick Mail",
-    url: "https://quickmail.level-sony.fr/",
     description:
       "Quick Mail est un service de messagerie temporaire qui permet de créer une adresse email aléatoire et de recevoir des messages. Parfait pour les inscriptions nécessitant une vérification par email sans utiliser votre adresse personnelle.",
-    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "API"],
     imageUrl: quickMailImg,
-    projectUrl: "https://github.com/sony-level/QuickMail",
+    projectUrl: "https://quickmail.level-sony.fr/",
   },
   {
     title: "Challenge learning",
@@ -112,8 +111,8 @@ export const PROJECTS_DATA = [
   {
     title: "Dockdock-Go",
     description:
-      "Création d’une solution d’entreprise axée sur la sécurité des images Docker. En cours de realisation",
-    tags: ["Docker", "Firecracker", "Proxmox", "  Angular Js", "Harbor", "Kubernetes" , "Rust"],
+      "Devellopement de l'interface web d'harbor pour l'ajout de scanner de vulnerabilité plus adapté ",
+    tags: ["Docker", "Firecracker", "Angular Js", "Harbor", "Kubernetes" , "Rust"],
     imageUrl: ecommerceImg,
     projectUrl: "https://github.com/Master1-Project",
   },
@@ -162,4 +161,4 @@ export const SKILLS_DATA = {
 } as const;
 
 // Owner name
-export const OWNER_NAME = "Level";
+export const OWNER_NAME = "Level Sony";

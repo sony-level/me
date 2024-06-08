@@ -37,7 +37,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/app-icon.png" 
+              src="/giphy.gif" 
               alt={`${OWNER_NAME.split(" ")[0]} portrait`}
               width={192}
               height={192}
@@ -68,11 +68,12 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <b className="font-bold">Salut, Je m&apos;appèlle </b>{" "}
-        <b className="font-bold text-blue-500">{OWNER_NAME.split(" ")[0]}</b>.{" "}
+        <b className="font-bold text-blue-500">{OWNER_NAME.split(" ")[1]}</b>.{" "}
         Je suis un <b className="font-bold text-blue-500">Étudiant en Cybersécurité</b> {" "}
         <b className="font-bold"></b>.{" "}
         <b className="italic"></b> {" "}
         <b className="underline"></b>
+        
       </motion.h1>
 
       <motion.div

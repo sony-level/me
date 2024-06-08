@@ -15,3 +15,4 @@ const SectionHeading = ({ children }: SectionHeadingProps) => {
 };
 
 export default SectionHeading;
+  

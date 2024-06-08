@@ -1,5 +1,6 @@
 // Import necessary dependencies and components.
 "use client"; // This comment indicates that this code should run on the client side in Next.js.
+import React from "react"; // Import the React library.
 
 import clsx from "clsx";
 import { motion } from "framer-motion";
