@@ -13,6 +13,8 @@ const Header = () => {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
+    type SectionName = "Home" | "About" | "Projects" | "Skills" | "Experience" | "Contact" | "Mon Blog";
+
   return (
     <header className="z-[999] relative">
       {/* Stylish background element for the header */}
@@ -42,7 +44,7 @@ const Header = () => {
                 href={link.hash}
                 onClick={() => {
                   // Set the active section and the time of the last click.
-                  setActiveSection(link.name);
+                  setActiveSection(link.name as SectionName);
                   setTimeOfLastClick(Date.now());
                 }}
               >
