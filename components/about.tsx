@@ -80,13 +80,13 @@ const About = () => {
       <p className="mb-3">
   <SectionHeading>Ce que je recherche</SectionHeading>
   Je suis familiarisé avec les concepts de la cybersécurité. Je cherche toujours à apprendre de nouvelles technologies. 
-  Je suis actuellement à la recherche d'un <b className="font-medium text-blue-500">stage en cybersécurité</b> d'une durée de <b className="font-medium text-blue-500">4 mois</b> à partir de <b className="font-medium text-blue-500">juin 2024</b> {" "}
+  Je suis actuellement à la recherche d'un <b className="font-medium text-blue-500">stage en cybersécurité ou programmation</b> d'une durée de <b className="font-medium text-blue-500">4 mois</b> à partir de <b className="font-medium text-blue-500">juin 2024</b> {" "}
   pouvant donner suite à une possibilité de poursuivre un <b className="font-medium text-blue-500">contrat de professionnalisation</b> dès <b className="font-medium text-blue-500">septembre 2024 😊</b> .
 </p>
 <br ></br>
        <p className="mb-3">   
        <SectionHeading>Hobbies</SectionHeading>
-            <i className="italic">👨‍💻 A mes heures libres</i>, j'aime regarder des films 🎥 & documentaires 🎬,  participé aux CTF (Capture The Flag) 🏁 afin de m'améliorer.  J'aime aussi{" "}
+            <i className="italic">👨‍💻 A mes heures libres</i>, je developpe de petite application simple pour apprendre, regardé des documentaires 🎬,  participé aux CTF (Capture The Flag) 🏁 afin de m'améliorer.  J'aime aussi{" "}
         <b className="font-medium">📚 apprendre de nouvelles choses</b>. Actuellement,
         je concois la redaction d'un <b className="font-medium">blog</b>.
         J'adore aussi voyager ✈️ découvrir de nouveaux horizons .
