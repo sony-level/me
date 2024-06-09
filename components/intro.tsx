@@ -38,7 +38,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/app-icon.png" 
+              src="/giphy.gif" 
               alt={`${OWNER_NAME.split(" ")[0]} portrait`}
               width={192}
               height={192}
