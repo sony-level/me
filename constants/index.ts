@@ -34,7 +34,7 @@ export const LINKS = [
   },
   {
     name: "Blog",
-    hash: "#https://blogcyber.level.ovh/", 
+    hash: "https://blogcyber.level.ovh/", 
   },
   {
     name: "Contact",
