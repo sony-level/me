@@ -9,6 +9,7 @@ import {
   Skills,
 } from "@/components";
 
+
 // This is the main component for the Home page.
 export default function Home() {
   return (
