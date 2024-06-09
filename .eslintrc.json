@@ -1,15 +1,7 @@
-
 {
-  "extends": [
-    "next",
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "prettier"
-  ],
-  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "extends": ["next/babel", "next/core-web-vitals"],
   "rules": {
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": 0
   }
 }
+ 

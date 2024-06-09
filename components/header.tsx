@@ -1,6 +1,6 @@
 // Import necessary dependencies and components.
 "use client"; // This comment indicates that this code should run on the client side in Next.js.
-import React from "react"; // Import the React library.
+import React, { SetStateAction } from "react"; // Import the React library.
 
 import clsx from "clsx";
 import { motion } from "framer-motion";
@@ -12,9 +12,12 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 // Define the Header component.
 const Header = () => {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
-    useActiveSectionContext();
+      useActiveSectionContext();
 
-    type SectionName = "Home" | "About" | "Projects" | "Skills" | "Experience" | "Contact" | "Mon Blog";
+      type SectionName = "Home" | "About" | "Projects" | "Skills" | "Experience" | "Contact" | "Blog";
+
+  
+  const SectionName = "Blog";
 
   return (
     <header className="z-[999] relative">
@@ -45,7 +48,9 @@ const Header = () => {
                 href={link.hash}
                 onClick={() => {
                   // Set the active section and the time of the last click.
-                  setActiveSection(link.name as SectionName);
+                  if (Object.values(SectionName).includes(link.name)) {
+                    setActiveSection(link.name as SetStateAction<SectionName>);
+                  }
                   setTimeOfLastClick(Date.now());
                 }}
               >

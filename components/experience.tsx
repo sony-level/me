@@ -55,7 +55,7 @@ const Experience = () => {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={experience.date}
-              icon={experience.icon}
+              icon={<>{experience.icon}</>}
               iconStyle={{
                 background:
                   theme === "light" ? "#fff" : "rgba(255, 255, 255, 0.15)",

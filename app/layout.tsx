@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import React from 'react';
 
 import { Header, Footer, ThemeSwitch } from "@/components";
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -70,13 +71,18 @@ export const metadata: Metadata = {
     "cloudformation",
     "serverless deployment"
   ],
-  themeColor: "#000000",
   manifest: "/manifest.json",
   other: {
     "google-site-verification":
       process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_KEY!,
   },
-};
+}; 
+
+// Définir le viewport avec themeColor
+export const generateViewport = () => ({ 
+  themeColor: "#000000",
+  // autres configurations de viewport si nécessaire
+});
 
 // root layout
 export default function RootLayout({

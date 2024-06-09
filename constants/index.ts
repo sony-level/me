@@ -7,6 +7,8 @@ import carhubImg from "@/public/carhub.png";
 import realtorImg from "@/public/realtor.jpg";
 import ecommerceImg from "@/public/image.png";
 import quickMailImg from "@/public/quickMail.png";
+import { SectionName } from "@/lib/types";
+
 
 // Navigation links
 export const LINKS = [
@@ -31,8 +33,8 @@ export const LINKS = [
     hash: "#experience",
   },
   {
-    name: "Mon Blog",
-    hash: "https://blogcyber.level.ovh/",
+    name: "Blog",
+    hash: "#https://blogcyber.level.ovh/", 
   },
   {
     name: "Contact",
@@ -48,7 +50,6 @@ export const EXTRA_LINKS = {
   resume: "/resume.pdf",
   source_code: "https://github.com/sony-level/me",
   email: "sony-dilane-level.mbango@isen.yncrea.fr",
-  blog: "https://blogcyber.level.ovh/",
   rootMe:"https://www.root-me.org/level-818750?inc=score&lang=fr"
   
 } as const;

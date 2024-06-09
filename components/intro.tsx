@@ -38,7 +38,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/giphy.gif" 
+              src="/app-icon.png" 
               alt={`${OWNER_NAME.split(" ")[0]} portrait`}
               width={192}
               height={192}
@@ -69,12 +69,11 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <b className="font-bold">Salut, Je m&apos;appèlle </b>{" "}
-        <b className="font-bold text-blue-500">{OWNER_NAME.split(" ")[1]}</b>.{" "}
+        <b className="font-bold text-blue-500">{OWNER_NAME.split(" ")[0]}</b>.{" "}
         Je suis un <b className="font-bold text-blue-500">Étudiant en Cybersécurité</b> {" "}
         <b className="font-bold"></b>.{" "}
         <b className="italic"></b> {" "}
         <b className="underline"></b>
-        
       </motion.h1>
 
       <motion.div
@@ -99,6 +98,7 @@ const Intro = () => {
           <a
             href={EXTRA_LINKS.resume}
             target="_blank"
+            rel="noopener noreferrer"
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition borderBlack dark:bg-white/10"
           >
             Download Resume{" "}
@@ -125,17 +125,6 @@ const Intro = () => {
             title="GitHub"
           >
             <FaGithubSquare />
-          </Link>
-
-          <Link
-            href={EXTRA_LINKS.blog}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.1] hover:scale-[1.1] active:scale-95 hover:text-gray-950 transition borderBlack dark:bg-white/10 dark:text-white/60"
-            aria-label="Blog"
-            title="Blog"
-          >
-            <FaBlog />
           </Link>
            <Link
             href={EXTRA_LINKS.rootMe}
