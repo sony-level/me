@@ -7,6 +7,7 @@ import carhubImg from "@/public/carhub.png";
 import realtorImg from "@/public/realtor.jpg";
 import ecommerceImg from "@/public/image.png";
 import quickMailImg from "@/public/quickMail.png";
+import trackImg from "@/public/track.png"
 import { SectionName } from "@/lib/types";
 
 
@@ -94,12 +95,27 @@ export const EXPERIENCES_DATA = [
 // Data for projects
 export const PROJECTS_DATA = [
   {
+    title: "Dockdock-Go",
+    description:
+      "Devellopement de l'interface web d'harbor pour l'ajout de scanner de vulnerabilité plus adapté ",
+    tags: ["Docker", "Firecracker", "Angular Js", "Harbor", "Kubernetes" , "Rust"],
+    imageUrl: ecommerceImg,
+    projectUrl: "https://github.com/Master1-Project",
+  },
+  {
     title: "Quick Mail",
     description:
       "Quick Mail est un service de messagerie temporaire qui permet de créer une adresse email aléatoire et de recevoir des messages. Parfait pour les inscriptions nécessitant une vérification par email sans utiliser votre adresse personnelle.",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "API"],
     imageUrl: quickMailImg,
     projectUrl: "https://quickmail.level-sony.fr/",
+  },
+  {
+    title: "Track IP",
+    description: "Track IP est un outil avancé de suivi des adresses IP qui permet de surveiller et d'analyser les activités des adresses IP en temps réel.",
+    tags: ["JavaScript", "HTML", "API", "Geolocation"],
+    imageUrl: trackImg,  
+    projectUrl: "https://trackip.level-sony.fr/"
   },
   {
     title: "Challenge learning",
@@ -109,15 +125,7 @@ export const PROJECTS_DATA = [
     imageUrl: realtorImg,
     projectUrl: "https://github.com/sony-level/OWASP-10",
   },
-  {
-    title: "Dockdock-Go",
-    description:
-      "Devellopement de l'interface web d'harbor pour l'ajout de scanner de vulnerabilité plus adapté ",
-    tags: ["Docker", "Firecracker", "Angular Js", "Harbor", "Kubernetes" , "Rust"],
-    imageUrl: ecommerceImg,
-    projectUrl: "https://github.com/Master1-Project",
-  },
- 
+
   {
     title: "Vérification de chaînes de certificats",
     description:  " Cette fonctionnalité permet de vérifier la validité des chaînes de certificats pour renforcer la sécurité de l'infrastructure. ",
