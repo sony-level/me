@@ -54,7 +54,7 @@ const About = () => {
       <p className="mb-3">
         💻  Parfois difficile à appréhender en fonction des situations, {" "}
         <b className="font-medium text-blue-500">j'adore</b> le sentiment de finalement trouver une solution à un problème. {" "}<br />
-
+{/*
         <br ></br>
        <SectionHeading>Mon stack de base comprend :</SectionHeading> 
 
@@ -71,8 +71,8 @@ const About = () => {
     <li><b className="font-medium text-blue-500">Cryptographie :</b> pour comprendre les principes de base de la cryptographie et son utilisation dans la sécurité des données.</li>
     <li><b className="font-medium text-blue-500">Sécurité des Réseaux :</b> pour comprendre les protocoles réseau, les pare-feu, et les techniques de sécurisation des réseaux.</li>
     <li><b className="font-medium text-blue-500">Sécurité des Applications :</b> pour comprendre les principes de base de la sécurité des applications, y compris les injections SQL, les attaques XSS, etc.</li>
-  </ul>
-</p>
+  </ul> */}
+</p> 
 
 <p className="mb-3">
   Je m'efforce également de rester à jour avec les dernières tendances en matière de sécurité en faisant une <b className="font-medium text-green-500">veille technologique</b> régulière sur les nouvelles vulnérabilités, les attaques récentes, et les développements dans le domaine de la cybersécurité.
