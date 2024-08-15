@@ -1,13 +1,15 @@
+
 import React from "react";
 import { CgFlag, CgWorkAlt } from "react-icons/cg";
 import { FaBlog, FaReact, FaRegArrowAltCircleLeft, FaYarn } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-
 import carhubImg from "@/public/carhub.png";
 import realtorImg from "@/public/realtor.jpg";
 import ecommerceImg from "@/public/image.png";
 import quickMailImg from "@/public/quickMail.png";
 import trackImg from "@/public/track.png"
+import dockerImg from "@/public/docker.png"
+
 import { SectionName } from "@/lib/types";
 
 
@@ -103,9 +105,16 @@ export const PROJECTS_DATA = [
     projectUrl: "https://github.com/Master1-Project",
   },
   {
+    title: "Docker Manager Dashboard",
+    description:  "Une interface graphique simple pour gerer les conteneurs docker. ",
+    tags: ["Docker", "Node js", "React", "Docker compose"],
+    imageUrl: dockerImg,
+    projectUrl: "https://github.com/sony-level/DockerManager",
+  },
+  {
     title: "Quick Mail",
     description:
-      "Quick Mail est un service de messagerie temporaire qui permet de créer une adresse email aléatoire et de recevoir des messages. Parfait pour les inscriptions nécessitant une vérification par email sans utiliser votre adresse personnelle.",
+      "Quick Mail est un service de messagerie temporaire qui permet de créer une adresse email aléatoire et de recevoir des messages.",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "API"],
     imageUrl: quickMailImg,
     projectUrl: "https://quickmail.level-sony.fr/",
@@ -118,21 +127,22 @@ export const PROJECTS_DATA = [
     projectUrl: "https://trackip.level-sony.fr/"
   },
   {
-    title: "Challenge learning",
+    title: "Challenge learning OWASP",
     description:
-      "Pojet visant à fournir une ressource complète pour comprendre et mitiger les principales vulnérabilités de sécurité Web répertoriées dans le top 10 de l'OWASP ",
+      "Projet visant à fournir une ressource complète pour comprendre et mitiger les principales vulnérabilités de sécurité Web répertoriées dans le top 10 de l'OWASP ",
     tags: ["Docker", "CSS", "PHP", "SQL", "Docker compose"],
     imageUrl: realtorImg,
     projectUrl: "https://github.com/sony-level/OWASP-10",
   },
 
   {
-    title: "Vérification de chaînes de certificats",
+    title: "Vérification des certificats",
     description:  " Cette fonctionnalité permet de vérifier la validité des chaînes de certificats pour renforcer la sécurité de l'infrastructure. ",
     tags: ["Cryptographie", "Java", "Sécurité", "Chaine de Certificat"],
     imageUrl: carhubImg,
     projectUrl: "https://github.com/sony-level/cryptoProject-2024/tree/master",
   },
+
 
 ] as const;
 

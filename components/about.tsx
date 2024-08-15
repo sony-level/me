@@ -36,7 +36,7 @@ const About = () => {
         de projets à réaliser en <b className="font-medium text-blue-500">👥 équipe</b> ou <b className="font-medium text-blue-500">👤 individuellement</b>.
       </p>
 
-      <p className="mb-3">
+    {/*  <p className="mb-3">
         🛡️ Personnellement, ce que je préfère dans la cybersécurité et au quotidien, c'est l'aspect de résolution de problèmes 
         et de détection des menaces. C'est comme un <b className="font-medium text-blue-500">jeu de stratégie</b> {" "}
         constant où l'on doit anticiper les mouvements des attaquants et trouver des moyens créatifs de protéger 
@@ -47,7 +47,7 @@ const About = () => {
       </p>
       <p className="mb-3">
          💭 <b className="font-medium text-blue-500">Et vous 😊, qu'est-ce qui vous attire dans la cybersécurité ou l'informatique ?</b> 
-      </p>
+      </p>  */}
       
      
 

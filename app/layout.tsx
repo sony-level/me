@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // site metadata
 export const metadata: Metadata = {
-  title: `${OWNER_NAME.split(" ")[0]} | Personal Portfolio`,
+  title: `${OWNER_NAME.split(" ")[0]} Portfolio`,
   description: `${
     OWNER_NAME.split(" ")[0]
   } étudiant en cybersécurité.`,
