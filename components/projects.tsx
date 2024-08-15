@@ -75,9 +75,9 @@ const Project = ({
             src={imageUrl}
             alt={title}
             quality={95}
-            className="absolute hidden sm:block top-12 -right-40 w-[28.25rem]
+            className="absolute hidden sm:block top-12 -right-48 w-[32rem]
             rounded-t-lg shadow-2xl group-even:right-[initial] 
-            group-even:-left-60 group-hover:-translate-x-3
+            group-even:-left-72 group-hover:-translate-x-3
             group-hover:translate-y-3 group-hover:-rotate-2
             
             group-even:group-hover:translate-x-3
@@ -99,7 +99,7 @@ const Projects = () => {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {PROJECTS_DATA.map((project, i) => (
           <Project key={`project-${i}`} {...project} />
         ))}
