@@ -99,7 +99,7 @@ const Projects = () => {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
-      <div className="">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {PROJECTS_DATA.map((project, i) => (
           <Project key={`project-${i}`} {...project} />
         ))}
