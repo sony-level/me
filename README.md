@@ -117,7 +117,7 @@ NEXT_PUBLIC_GOOGLE_VERIFICATION_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 6. Depuis le tableau de bord, choisissez Services de messagerie > Ajouter un nouveau service et connectez votre messagerie à emailjs.
 7. Une fois le nouveau service configuré, copiez votre **ID de service** dans `NEXT_PUBLIC_EMAILJS_SERVICE_ID`.
 8. Maintenant, allez dans Modèles de messagerie > Créer un nouveau modèle pour créer votre modèle de messagerie. Une fois terminé, vous pouvez copier **l'ID du modèle** dans `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`.
-9. Pour obtenir votre **clé publique**, cliquez sur votre nom d'utilisateur dans la barre de navigation, puis accédez aux paramètres du compte > Copiez la clé publique dans `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`.
+9. Pour obtenir votre **clé publique**, cliquez sur votre nom d'utilisateur dans la barre de navigation, puis accédez aux paramètres du compte > Copiez la clé publique dans `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`. 
 10. Ouvrez le terminal dans le répertoire racine. Exécutez `npm install --legacy-peer-deps` ou `yarn install --legacy-peer-deps`.
 
 ![Copy Public Key](/.github/images/step_emailjs.png "Copy Public Key")
