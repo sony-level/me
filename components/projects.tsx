@@ -87,7 +87,7 @@ const Project = ({
           />
         </Link>
       </div>
-    </motion.article> 
+    </motion.article>
   );
 };
 
